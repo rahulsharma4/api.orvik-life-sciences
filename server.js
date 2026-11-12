@@ -64,6 +64,44 @@ setInterval(() => {}, 60000);
 
 // Routes
 
+// 0. Root Endpoint
+app.get("/", (req, res) => {
+  res.send(`
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>ORVIK Life Sciences &bull; API Server</title>
+      <style>
+        body { font-family: system-ui, -apple-system, sans-serif; background: #f8fafc; color: #0f172a; padding: 40px; text-align: center; }
+        .card { max-width: 600px; margin: 0 auto; background: white; padding: 32px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,82,204,0.08); border: 2px solid #bfdbfe; }
+        h1 { color: #0052cc; margin-bottom: 8px; font-size: 24px; }
+        .badge { background: #dcfce7; color: #166534; padding: 4px 12px; border-radius: 99px; font-weight: bold; font-size: 12px; display: inline-block; margin-bottom: 16px; }
+        p { color: #475569; font-size: 14px; line-height: 1.6; }
+        .endpoints { margin-top: 24px; text-align: left; background: #f1f5f9; padding: 16px; border-radius: 12px; font-family: monospace; font-size: 13px; }
+        a { color: #0052cc; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+      </style>
+    </head>
+    <body>
+      <div class="card">
+        <span class="badge">● Live &amp; Operational</span>
+        <h1>ORVIK LIFE SCIENCES PVT. LTD.</h1>
+        <p>Official Backend REST API Server is running and connected to MongoDB Atlas.</p>
+        <div class="endpoints">
+          <strong>Available API Endpoints:</strong><br><br>
+          &bull; <a href="/api/health" target="_blank">/api/health</a> (Server &amp; Database Health)<br>
+          &bull; <a href="/api/products" target="_blank">/api/products</a> (10 Veterinary Products)<br>
+          &bull; <a href="/api/company" target="_blank">/api/company</a> (Company Info &amp; Pillars)<br>
+          &bull; <a href="/api/inquiries" target="_blank">/api/inquiries</a> (POST Dealership Inquiries)<br>
+          &bull; <a href="/api/contact" target="_blank">/api/contact</a> (POST Contact Messages)
+        </div>
+      </div>
+    </body>
+    </html>
+  `);
+});
+
 // 1. Health & Database Status
 app.get("/api/health", (req, res) => {
   res.json({
