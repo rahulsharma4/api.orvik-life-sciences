@@ -54,7 +54,7 @@ const productsData = [
     packaging: ["1 Kg Pack", "5 Kg Bucket"],
     bannerColor: "#eab308",
     accentColor: "#facc15",
-    image: "/images/products/tfs-powder.jpg",
+    image: "/product/tfs-fertility-solution-powder.jpeg",
     isFeatured: true,
     isBestseller: true,
     threePillarCategory: "Calf a Year"
@@ -112,7 +112,7 @@ const productsData = [
     packaging: ["250 ml", "500 ml", "1 Litre"],
     bannerColor: "#2563eb",
     accentColor: "#60a5fa",
-    image: "/images/products/orvikind-plus-b1.jpg",
+    image: "/product/orvikind-plus-b1.jpeg",
     isFeatured: true,
     isBestseller: true,
     threePillarCategory: "Smooth Transition & Cow Health"
@@ -162,7 +162,7 @@ const productsData = [
     packaging: ["500 ml", "1 Litre"],
     bannerColor: "#dc2626",
     accentColor: "#f87171",
-    image: "/images/products/udder-ayu.jpg",
+    image: "/product/udder-ayu.jpeg",
     isFeatured: true,
     isBestseller: true,
     threePillarCategory: "Peak Milk Production"
@@ -212,7 +212,7 @@ const productsData = [
     packaging: ["300 gm Jar"],
     bannerColor: "#b91c1c",
     accentColor: "#ef4444",
-    image: "/images/products/d-yeast.jpg",
+    image: "/product/d-yeast-powder.jpeg",
     isFeatured: true,
     isBestseller: false,
     threePillarCategory: "Smooth Transition & Cow Health"
@@ -264,7 +264,7 @@ const productsData = [
     packaging: ["500 ml", "1 Litre", "5 Litres"],
     bannerColor: "#047857",
     accentColor: "#10b981",
-    image: "/images/products/orvi-guard.jpg",
+    image: "/product/orvi-guard.jpeg",
     isFeatured: true,
     isBestseller: true,
     threePillarCategory: "Smooth Transition & Cow Health"
@@ -330,7 +330,7 @@ const productsData = [
     packaging: ["500 ml", "1 Litre"],
     bannerColor: "#4338ca",
     accentColor: "#818cf8",
-    image: "/images/products/utro-heal.jpg",
+    image: "/product/utro-heal-liquid.jpeg",
     isFeatured: true,
     isBestseller: true,
     threePillarCategory: "Calf a Year"
@@ -376,7 +376,7 @@ const productsData = [
     packaging: ["100 ml", "300 ml"],
     bannerColor: "#1e293b",
     accentColor: "#64748b",
-    image: "/images/products/o-tox.jpg",
+    image: "/product/o-tox-suspension.jpeg",
     isFeatured: true,
     isBestseller: false,
     threePillarCategory: "Smooth Transition & Cow Health"
@@ -425,7 +425,7 @@ const productsData = [
     packaging: ["2 Kg Bucket", "5 Kg Bucket", "25 Kg Commercial Drum"],
     bannerColor: "#db2777",
     accentColor: "#f472b6",
-    image: "/images/products/orvical-p.jpg",
+    image: "/product/orvical-p-granules.jpeg",
     isFeatured: true,
     isBestseller: true,
     threePillarCategory: "Peak Milk Production"
@@ -476,7 +476,7 @@ const productsData = [
     packaging: ["300 gm Squeeze Tube"],
     bannerColor: "#ea580c",
     accentColor: "#fb923c",
-    image: "/images/products/orvical-gel.jpg",
+    image: "/product/advance-orvical-gel.jpeg",
     isFeatured: true,
     isBestseller: true,
     threePillarCategory: "Smooth Transition & Cow Health"
@@ -531,7 +531,7 @@ const productsData = [
     packaging: ["1 Litre Bottle", "5 Litres Jar", "10 Litres Can", "20 Litres Dairy Drum"],
     bannerColor: "#d97706",
     accentColor: "#f59e0b",
-    image: "/images/products/orvical-gold.jpg",
+    image: "/product/chelated-orvical-gold.jpeg",
     isFeatured: true,
     isBestseller: true,
     threePillarCategory: "Peak Milk Production"
